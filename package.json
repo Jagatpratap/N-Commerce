@@ -1,0 +1,27 @@
+{
+  "name": "n-commerce",
+  "version": "1.0.0",
+  "description": "N-Commerce is an open-source ecommerce platform in express and mondodb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jagatpratap/N-Commerce.git"
+  },
+  "author": "Jagat Pratap Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jagatpratap/N-Commerce/issues"
+  },
+  "homepage": "https://github.com/Jagatpratap/N-Commerce#readme",
+  
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2"
+  }
+}
